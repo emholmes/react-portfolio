@@ -58,6 +58,28 @@ header {
   z-index: 9999;
 }
 
+header nav {
+  padding-right: 35.2px;
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+header nav ul li a {
+  padding: 15px 0 5px;
+  margin: 25px;
+  text-decoration: none;
+  color: var(--dark-blue);
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .h1-block {
   padding: 20px 30px;
   margin-left: 30px;
