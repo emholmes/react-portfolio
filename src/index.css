@@ -140,7 +140,7 @@ header nav ul li a {
 /* contact me styles */
 .contact-me {
   padding: 30px;
-  /* align-items: baseline; */
+  text-align: center;
 }
 
 .contact-me-links {
@@ -154,8 +154,6 @@ header nav ul li a {
 .contact-me-links li {
   list-style-type: none;
   display: inline-block;
-  margin-bottom: 30px;
-  margin-left: 20px;
 }
 
 .contact-me-links a {
@@ -163,22 +161,18 @@ header nav ul li a {
   color: var(--dark-blue);
   font-size: 18px;
   text-decoration: none;
-  margin: 15px 0 0 50px;
-  padding-bottom: 5px;
 }
 
-.contact-me-links li::before {
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  display: block;
+.contact-me-links a img {
   width: 40px;
-  height: 40px;
-  position: relative;
-  top: 27px;
-} 
+}
 
-.phone-number {
-  pointer-events: none;
+.contact-me-links li:nth-child(2) {
+  padding-left: 10px;
+}
+
+.contact-me p {
+  padding-top: 20px;
 }
 
 /* Responsive styling */

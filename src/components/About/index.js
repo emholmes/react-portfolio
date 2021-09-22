@@ -2,7 +2,7 @@ import headshot from "../../images/erin-h-square.jpeg"
 
 const About = () => {
   return (
-    <section id="about-me" class="about-me">  
+    <section id="about-me" className="about-me">  
       <h3>About Me</h3>
       <div>
           <p>Hi, I'm Erin.</p>
