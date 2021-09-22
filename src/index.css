@@ -84,3 +84,48 @@ header nav ul li a {
   padding: 20px 30px;
   margin-left: 30px;
 }
+
+@media screen and (max-width: 980px) {
+  header nav {
+      justify-content: space-around;
+      padding: 0 0 20px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .h1-block {
+      margin-left: 0;
+  }
+
+  header nav ul li a {
+      margin: 16px;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  header {
+      justify-content: center;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  h1 {
+      margin-left: 0;
+      padding: 10px 0 0;
+  }
+  
+  header nav ul {
+      justify-content: center;
+      padding-top: 0;
+  }
+
+  header nav ul li {
+      padding-top: 20px;
+  }
+
+  header nav ul li a {
+      margin: 10px;
+  }
+}
+
