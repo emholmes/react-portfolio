@@ -9,7 +9,6 @@ const Header = () => {
       </div>
       <Navigation />
     </header>
-    
   )
 }
 

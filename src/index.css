@@ -47,6 +47,28 @@ h2 {
   padding-top: 5px;
 }
 
+h3 {
+  font-family: var(--serif);
+  flex: 0 17%;
+  font-size: 33px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+h3::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid var(--dark-blue);
+  width: 75px;
+  padding-top: 10px;
+}
+
+li a:hover, li a:active {
+  border-bottom: 2px solid var(--dark-teal);
+  color: var(--dark-teal);
+}
+
+/* Header styles */
 header {
   display: flex;
   flex-wrap: wrap;
@@ -83,6 +105,51 @@ header nav ul li a {
 .h1-block {
   padding: 20px 30px;
   margin-left: 30px;
+}
+
+/* about me styles */
+.about-me {
+  padding: 30px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-me img {
+  flex: 0 14%;
+  width: 200px;
+  height: 100%;
+  border-radius: 50%;
+  margin-right: 140px;
+}
+
+.about-me div {
+  flex: 2;
+  align-self: center;
+  padding-left: 20px;
+}
+
+.about-me div > * {
+  padding-bottom: 20px;
+}
+
+.about-me div p {
+  width: 85%;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 1365px) {
+  h3 {
+      flex: 0 20%;
+  }
+
+  .about-me div p {
+      width: 95%;
+  }
+
+  .about-me img {
+      margin-right: 40px;
+  }
 }
 
 @media screen and (max-width: 980px) {
