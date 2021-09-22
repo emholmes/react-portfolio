@@ -49,18 +49,9 @@ h2 {
 
 h3 {
   font-family: var(--serif);
-  flex: 0 17%;
   font-size: 33px;
-  padding-top: 20px;
-  padding-left: 30px;
-}
-
-h3::after {
-  content: "";
-  display: block;
-  border-bottom: 2px solid var(--dark-blue);
-  width: 75px;
-  padding-top: 10px;
+  padding-top: 30px;
+  text-align: center;
 }
 
 li a:hover, li a:active {
@@ -113,6 +104,8 @@ header nav ul li a {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
 }
 
 .about-me img {
@@ -120,17 +113,15 @@ header nav ul li a {
   width: 200px;
   height: 100%;
   border-radius: 50%;
-  margin-right: 140px;
-}
-
-.about-me div {
-  flex: 2;
-  align-self: center;
-  padding-left: 20px;
 }
 
 .about-me div > * {
   padding-bottom: 20px;
+}
+
+.about-me div {
+  flex: 0 50%;
+  align-self: center;
 }
 
 .about-me div p {
@@ -139,8 +130,10 @@ header nav ul li a {
 
 /* contact me styles */
 .contact-me {
+  margin-top: 100px;
   padding: 30px;
   text-align: center;
+  border-top: 3px solid var(--ballet-pink);
 }
 
 .contact-me-links {
