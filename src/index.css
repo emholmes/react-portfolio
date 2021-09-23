@@ -176,6 +176,124 @@ header nav ul li:hover,
   padding-top: 20px;
 }
 
+/* my work styles */
+.my-work {
+  justify-content: space-between;
+  background-color: var(--light-pink);
+  padding: 30px;
+}
+
+.my-work .project-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 80%;
+  list-style-type: none;
+}
+
+.project-list > a {
+  display: flex;
+  align-items: flex-end;
+  flex: 1 45%;
+  padding-left: 20px;
+  height: 375px;
+  margin: 5px 15px 20px 5px;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  background-color: var(--ballet-pink); /* fall back for project background images */
+}
+
+.project-list > a:hover {
+  border-bottom: none; /* prevent border from appearing on project images */
+}
+
+.project-list > a::before {
+  content: "";
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;    
+  z-index: -1;
+}
+
+.project-list > a:hover::before {
+  opacity: 1;
+}
+
+/* .project-list .featured-project {
+  flex: 1 100%;
+} */
+
+/* my work background images */
+.project-one {
+  background-image: url(./images/parktime-2-home.png); 
+  background-size: cover;
+}
+
+.project-two::before {
+  background-image: url(./images/tech-blog-home.png);
+  background-size: cover;
+}
+
+.project-three::before {
+  background-image: url(./images/notetaker-notes.png);
+  background-size: cover;
+}
+
+.project-four::before {
+  background-image: url(./images/workday-scheduler-tasks.png);
+  background-size: cover;
+}
+
+.project-five::before {
+  background-image: url(./images/weather-dash-search-history.png);
+  background-size: cover;
+}
+
+.project-six::before {
+  background-image: url(./images/js-api-quiz.png);
+  background-size: cover;
+}
+
+.project-seven::before {
+  background-image: url(./images/password-generator.png); 
+  background-size: cover;
+}
+
+.project-list .project-description {
+  display: block;
+  padding: 20px 20px 15px; 
+  background-color: var(--mid-blue);
+  color: #FFF;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 0 15px 15px 0;
+  position: relative;
+  right: 20px;
+  bottom: 40px;
+}
+
+.project-list a .project-description::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 5px;
+}
+
+.project-list a .project-description:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #FFF;
+  width: 100%;
+  /* padding-top: 10px;  */
+}
+
+.project-title {
+  padding-bottom: 5px;
+}
+
 /* Responsive styling */
 @media screen and (max-width: 1365px) {
   h3 {
