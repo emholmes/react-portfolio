@@ -190,7 +190,7 @@ header nav ul li:hover,
   margin-top: 20px;
 }
 
-.project-list > a {
+.project-list > li {
   display: flex;
   align-items: flex-end;
   /* flex: 0 0 45%; */
@@ -204,17 +204,21 @@ header nav ul li:hover,
   background-color: var(--ballet-pink); /* fall back for project background images */
 }
 
-.project-list > a:nth-child(even) {
+.project-list > li img {
+  width: 20px;
+}
+
+.project-list > li:nth-child(even) {
   margin-left: 20px;
 }
 
-.project-list > a:hover {
+.project-list > li:hover {
   border-bottom: none; /* prevent border from appearing on project images */
 }
 
-.project-list > a::before {
+.project-list > li::before {
   content: "";
-  opacity: 0.7;
+  opacity: 1;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -223,16 +227,12 @@ header nav ul li:hover,
   z-index: -1;
 }
 
-.project-list > a:hover::before {
-  opacity: 1;
+.project-list > li:hover::before {
+  opacity: 0.3;
 }
 
-/* .project-list .featured-project {
-  flex: 1 100%;
-} */
-
 /* my work background images */
-.project-one {
+.project-one::before {
   background-image: url(./images/parktime-2-home.png); 
   background-size: cover;
 }
@@ -270,30 +270,36 @@ header nav ul li:hover,
 .project-list .project-description {
   display: block;
   padding: 20px 20px 15px; 
-  background-color: var(--mid-blue);
-  color: #FFF;
-  height: fit-content;
-  width: fit-content;
-  border-radius: 0 15px 15px 0;
+  /* background-color: var(--ballet-pink); */
+  /* color: #FFF; */
+  /* height: fit-content;
+  width: fit-content; */
+  /* border-radius: 0 15px 15px 0; */
   position: relative;
   right: 20px;
-  bottom: 40px;
+  /* bottom: 40px; */
+  align-self: flex-start;
+  visibility: hidden;
 }
 
-.project-list a .project-description::after {
+.project-list li:hover .project-description {
+  visibility: visible;
+}
+
+/* .project-list li .project-description::after {
   content: "";
   display: block;
   border-bottom: 2px solid transparent;
   padding-bottom: 5px;
-}
+} */
 
-.project-list a .project-description:hover::after {
+/* .project-list li .project-description:hover::after {
   content: "";
   display: block;
   border-bottom: 2px solid #FFF;
   width: 100%;
-  /* padding-top: 10px;  */
-}
+  padding-top: 10px; 
+} */
 
 .project-title {
   padding-bottom: 5px;

@@ -2,14 +2,14 @@
   {
     "id": "project-one", 
     "name": "Parktime 2.0", 
-    "description": "MVC &#183; Sequelize &#183; Node.js &#183; RESTful API", 
+    "description": "MVC | Sequelize | Node.js | RESTful API", 
     "pageUrl": "https://parktime-2.herokuapp.com/", 
     "githubUrl": ""
   },
   {
     "id": "project-two", 
     "name": "Tech Blog",
-    "description": "MVC &#183; Express &#183; Sequelize", 
+    "description": "MVC | Express | Sequelize", 
     "pageUrl": "https://tech-blog-mvc-eh.herokuapp.com/", 
     "githubUrl": ""
   },
@@ -23,14 +23,14 @@
   {
     "id": "project-four", 
     "name": "Workday Scheduler", 
-    "description": "Bootstrap &#183; jQuery &#183; Third-party API", 
+    "description": "Bootstrap | jQuery | Third-party API", 
     "pageUrl": "https://emholmes.github.io/eholmes-work-day-scheduler-api-challenge/", 
     "githubUrl": ""
   },
   {
     "id": "project-five", 
     "name": "Weather Dashboard", 
-    "description": "Javascript &#183; Server-side API", 
+    "description": "Javascript | Server-side API", 
     "pageUrl": "https://emholmes.github.io/api-weather-dashboard/", 
     "githubUrl": ""
   },
