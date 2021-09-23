@@ -1,25 +1,18 @@
-import { useState } from "react";
-
-const Navigation = () => {
-  const [navLinks] = useState([
-    { name: "About me" },
-    { name: "My work"},
-    { name: "Contact me"},
-    { name: "Resume" }
-  ]);
-
-  const [currentNavLink, setcurrentNavLink] = useState(navLinks[0]);
+const Navigation = ({currentPage, handlePageChange}) => {
+  const navLinks = ["About", "Portfolio", "Contact", "Resume"];
 
   return (
     <nav>
-      <ul>
+      <ul className="nav nav-tabs">
         {navLinks.map((link) => (
-          <li className={`${currentNavLink.name === link.name && "navActive"}`} key={link.name}>
-            <span onClick={() => {
-              setcurrentNavLink(link); 
-            }}>
-                {link.name}
-            </span>
+          <li className="nav-item" key={link}>
+            <a href={"#" + link.toLowerCase()} 
+            onClick={() => {
+              handlePageChange(link); 
+            }}
+              className={currentPage === link ? "nav-link navActive active" : "nav-link"}>
+                {link}
+            </a>
           </li>
         ))}
       </ul>

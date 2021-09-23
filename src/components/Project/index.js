@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Project = () => {
+const Portfolio = () => {
   const [projects] = useState([
     {
       id: "project-one", name: "Parktime 2.0", description: "MVC &#183; Sequelize &#183; Node.js &#183; RESTful API", pageUrl: "https://parktime-2.herokuapp.com/", githubUrl: ""
@@ -27,7 +27,7 @@ const Project = () => {
   
   return (
     <section id="my-work" className="my-work">
-      <h3>My Work</h3>
+      <h3>Portfolio</h3>
       <ul className="project-list">
         {projects.map((project) => (
           <a className={project.id} href={project.pageUrl} key={project.id} target="_blank" rel="noreferrer">
@@ -44,4 +44,4 @@ const Project = () => {
   )
 }
 
-export default Project;
+export default Portfolio;

@@ -1,13 +1,16 @@
 import Navigation from "../Navigation";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header>
       <div className="h1-block">
         <h1>Erin Holmes</h1>
             <h2>Web Developer</h2>
       </div>
-      <Navigation />
+      <Navigation 
+        currentPage={props.currentPage}
+        handlePageChange={props.handlePageChange}
+      />
     </header>
   )
 }
