@@ -17,7 +17,6 @@ const Navigation = () => {
           <li className={`${currentNavLink.name === link.name && "navActive"}`} key={link.name}>
             <span onClick={() => {
               setcurrentNavLink(link); 
-
             }}>
                 {link.name}
             </span>
