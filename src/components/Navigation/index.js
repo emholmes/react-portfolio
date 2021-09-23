@@ -1,12 +1,28 @@
+import { useState } from "react";
 
 const Navigation = () => {
+  const [navLinks] = useState([
+    { name: "About me" },
+    { name: "My work"},
+    { name: "Contact me"},
+    { name: "Resume" }
+  ]);
+
+  const [currentNavLink, setcurrentNavLink] = useState(navLinks[0]);
+
   return (
     <nav>
       <ul>
-          <li><a href="#about-me">About me</a></li>
-          <li><a href="#my-work">My work</a></li>
-          <li><a href="#contact-me">Contact me</a></li>
-          <li><a href="./assets/resume/erinholmes-resume-linkedin.pdf">Resume</a></li>
+        {navLinks.map((link) => (
+          <li className={`${currentNavLink.name === link.name && "navActive"}`} key={link.name}>
+            <span onClick={() => {
+              setcurrentNavLink(link); 
+
+            }}>
+                {link.name}
+            </span>
+          </li>
+        ))}
       </ul>
     </nav>
   )
