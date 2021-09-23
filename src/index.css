@@ -178,29 +178,34 @@ header nav ul li:hover,
 
 /* my work styles */
 .my-work {
-  justify-content: space-between;
   background-color: var(--light-pink);
-  padding: 30px;
+  padding: 0 30px 10px;
 }
 
 .my-work .project-list {
   display: flex;
   flex-wrap: wrap;
-  flex: 1 80%;
   list-style-type: none;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .project-list > a {
   display: flex;
   align-items: flex-end;
-  flex: 1 45%;
+  /* flex: 0 0 45%; */
+  width: 48%;
   padding-left: 20px;
   height: 375px;
-  margin: 5px 15px 20px 5px;
+  margin-bottom: 20px;
   position: relative;
   z-index: 1;
   text-decoration: none;
   background-color: var(--ballet-pink); /* fall back for project background images */
+}
+
+.project-list > a:nth-child(even) {
+  margin-left: 20px;
 }
 
 .project-list > a:hover {

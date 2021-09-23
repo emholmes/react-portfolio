@@ -39,7 +39,6 @@ const Project = () => {
           </li>
           </a>
         ))}
-        
       </ul>
     </section>
   )
