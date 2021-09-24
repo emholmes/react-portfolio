@@ -54,10 +54,10 @@ h3 {
   text-align: center;
 }
 
-li a:hover, li a:active {
+/* li a:hover, li a:active {
   border-bottom: 2px solid var(--dark-teal);
   color: var(--dark-teal);
-}
+} */
 
 /* Header styles */
 header {
@@ -204,10 +204,6 @@ header nav ul li:hover,
   background-color: var(--ballet-pink); /* fall back for project background images */
 }
 
-.project-list > li img {
-  width: 20px;
-}
-
 .project-list > li:nth-child(even) {
   margin-left: 20px;
 }
@@ -228,7 +224,7 @@ header nav ul li:hover,
 }
 
 .project-list > li:hover::before {
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 /* my work background images */
@@ -270,14 +266,8 @@ header nav ul li:hover,
 .project-list .project-description {
   display: block;
   padding: 20px 20px 15px; 
-  /* background-color: var(--ballet-pink); */
-  /* color: #FFF; */
-  /* height: fit-content;
-  width: fit-content; */
-  /* border-radius: 0 15px 15px 0; */
   position: relative;
-  right: 20px;
-  /* bottom: 40px; */
+  top: 80px;
   align-self: flex-start;
   visibility: hidden;
 }
@@ -286,23 +276,31 @@ header nav ul li:hover,
   visibility: visible;
 }
 
-/* .project-list li .project-description::after {
-  content: "";
-  display: block;
-  border-bottom: 2px solid transparent;
-  padding-bottom: 5px;
-} */
-
-/* .project-list li .project-description:hover::after {
-  content: "";
-  display: block;
-  border-bottom: 2px solid #FFF;
-  width: 100%;
-  padding-top: 10px; 
-} */
-
 .project-title {
-  padding-bottom: 5px;
+  font-size: 26px;
+  text-decoration: none;
+  padding-right: 20px;
+  color: var(--dark-blue);
+}
+
+.project-title:hover {
+  color: var(--dark-teal);
+}
+
+.project-list p {
+  font-size: 18px;
+  padding-top: 10px;
+  color: var(--dark-blue);
+}
+
+.project-list > li a svg {
+  fill: var(--dark-blue);
+  width: 40px;  
+  vertical-align: bottom;
+}
+
+.project-list > li a svg:hover {
+  fill: var(--dark-teal);
 }
 
 /* Responsive styling */
