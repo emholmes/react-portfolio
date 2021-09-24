@@ -5,6 +5,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Footer from './components/Footer';
 import Portfolio from './components/Project';
+import ContactForm from "./components/Contact";
 
 function App() {
   const [currentPage, handlePageChange] = useState("About");
@@ -15,6 +16,8 @@ function App() {
         return <About />;
       case "Portfolio":
         return <Portfolio />;
+      case "Contact":
+        return <ContactForm />;
       default: 
         return <About />;
     }
