@@ -281,10 +281,12 @@ header nav ul li a:hover,
   text-decoration: none;
   margin-right: 20px;
   color: var(--dark-blue);
+  opacity: 0.7;
 }
 
 .project-title:hover {
-  color: var(--dark-teal);
+  /* color: var(--dark-teal); */
+  opacity: 1;
 }
 
 .project-list p {
@@ -297,10 +299,12 @@ header nav ul li a:hover,
   fill: var(--dark-blue);
   width: 40px;  
   vertical-align: bottom;
+  opacity: 0.7;
 }
 
 .project-list > li a svg:hover {
-  fill: var(--dark-teal);
+  /* fill: var(--dark-teal); */
+  opacity: 1;
 }
 
 /* Responsive styling */
