@@ -98,7 +98,7 @@ header nav ul li a {
 header nav ul li a:hover,
 .navActive {
   border-bottom: 2px solid var(--dark-teal);
-  color: var(--dark-teal);
+  /* color: var(--dark-teal); */
 }
 
 .h1-block {
