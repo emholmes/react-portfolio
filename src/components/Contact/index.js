@@ -10,7 +10,7 @@ const ContactForm = () => {
     if (event.target.name === "email") {
       const isValid = validateEmail(event.target.value);
       if (!isValid) {
-        setErrorMessage("The entered is invalid.");
+        setErrorMessage("Enter a valid email");
       } else {
         setErrorMessage("");
       }
@@ -47,11 +47,9 @@ const ContactForm = () => {
           <label htmlFor="message">Message:</label>
           <textarea name="message" defaultValue={message} onBlur={validateContactForm} rows="5" required />
         </div>
-        {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
-        )}
         <button type="submit">Submit</button>
       </form>
     </section>

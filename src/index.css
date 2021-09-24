@@ -364,6 +364,12 @@ header nav ul li a:hover,
   background-color: var(--dark-teal)
 }
 
+.error-text {
+  flex: 100%;
+  height: 1em;
+  color: red;
+}
+
 /* Responsive styling */
 @media screen and (max-width: 1365px) {
   h3 {
