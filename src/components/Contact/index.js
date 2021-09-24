@@ -1,20 +1,14 @@
 const ContactForm = () => {
   return (
-    <section>
-      <h3>Portfolio</h3>
-      <form id="contact-form">
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" />
-        </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" />
-        </div>
+    <section className="contact">
+      <h3>Contact</h3>
+      <form className="contact-form">
+        <label htmlFor="name">Name:</label>
+        <input type="text" name="name" />
+        <label htmlFor="email">Email address:</label>
+        <input type="email" name="email" />
+        <label htmlFor="message">Message:</label>
+        <textarea name="message" rows="5" />
         <button type="submit">Submit</button>
       </form>
     </section>
