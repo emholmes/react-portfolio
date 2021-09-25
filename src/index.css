@@ -54,6 +54,13 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  font-family: var(--sans-serif);
+  font-size: 20px;
+  margin: 0 auto;
+  max-width: 250px;
+}
+
 /* li a:hover, li a:active {
   border-bottom: 2px solid var(--dark-teal);
   color: var(--dark-teal);
@@ -369,6 +376,54 @@ header nav ul li a:hover,
   height: 1em;
   color: red;
 }
+
+/* Resume page styling */
+.resume {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.resume p {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.resume a {
+  text-decoration: none;
+  color: #000;
+}
+
+.resume a:hover {
+  color: var(--dark-teal);
+}
+
+.resume p a svg {
+  margin-left: 3px;
+  vertical-align: middle;
+}
+
+.resume p a svg:hover {
+  fill: var(--dark-teal);
+}
+
+.proficiencies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.proficiencies div {
+  flex: 0 40%;
+}
+
+.proficiencies div ul {
+  padding-top: 10px;
+  padding-left: 30px;
+  margin: 0 auto;
+  max-width: 230px;
+}
+
 
 /* Responsive styling */
 @media screen and (max-width: 1365px) {
