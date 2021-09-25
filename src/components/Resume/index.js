@@ -4,8 +4,10 @@ const Resume = () => {
   return (
     <section className="resume">
       <h3>Resume</h3>
-        <p>Download my <a href={resume}>resume 
-          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 8 8"><path d="M3 0v3h-2l3 3 3-3h-2v-3h-2zm-3 7v1h8v-1h-8z" /></svg></a>
+        <p>Download my
+          <a href={resume} download> resume 
+            <span className="icon icon-download"></span>
+          </a>
         </p>
         <section className="proficiencies">
           <div className="frontEnd">

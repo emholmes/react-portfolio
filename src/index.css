@@ -402,10 +402,6 @@ header nav ul li a:hover,
   vertical-align: middle;
 }
 
-.resume p a svg:hover {
-  fill: var(--dark-teal);
-}
-
 .proficiencies {
   display: flex;
   flex-wrap: wrap;
@@ -422,6 +418,28 @@ header nav ul li a:hover,
   padding-left: 30px;
   margin: 0 auto;
   max-width: 230px;
+}
+
+
+/* Icon styling */
+.icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: black;
+}
+
+.icon-download {
+  mask: url(../src/assets/icons/data-transfer-download.svg);
+  margin-left: 3px;
+  vertical-align: middle;
+  background: black;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.icon-download:hover {
+  background: var(--dark-teal);
 }
 
 
