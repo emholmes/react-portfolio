@@ -5,7 +5,7 @@ const Resume = () => {
     <section className="resume">
       <h3>Resume</h3>
         <p>Download my
-          <a href={resume} download> resume 
+          <a href={resume} download> resume
             <span className="icon icon-download"></span>
           </a>
         </p>

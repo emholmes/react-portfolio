@@ -1,5 +1,5 @@
-import ghIcon from "../../icons/icon-github-min.png";
-import liIcon from "../../icons/icon-linkedin-min.png";
+import ghIcon from "../../assets/icons/icon-github-min.png";
+import liIcon from "../../assets/icons/icon-linkedin-min.png";
 
 const Footer = () => {
   return (
