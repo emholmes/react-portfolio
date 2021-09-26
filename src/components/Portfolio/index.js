@@ -1,5 +1,3 @@
-import projects from "../../projects.json";
-
 const Portfolio = () => {
   return (
     <section id="my-work" className="my-work">
