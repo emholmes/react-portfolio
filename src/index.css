@@ -176,7 +176,7 @@ header nav ul li a:hover,
 }
 
 .contact-me-links li:nth-child(2) {
-  padding-left: 10px;
+  margin: 0 12px 0 15px;
 }
 
 .contact-me p {
@@ -433,16 +433,41 @@ header nav ul li a:hover,
   background: var(--dark-blue);
   mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
 }
 
 .icon-github:hover {
   background: var(--dark-teal);
 }
 
+.icon-linkedin {
+  mask: url(../src/assets/icons/linkedin-logo.svg);
+  vertical-align: bottom;
+  background: var(--dark-blue);
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  width: 45px;
+  height: 45px;
+}
 
+.icon-linkedin:hover {
+  background: var(--dark-teal);
+}
 
+.icon-hackerrank {
+  mask: url(../src/assets/icons/hackerrank-logo.svg);
+  vertical-align: bottom;
+  background: var(--dark-blue);
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  width: 47px;
+  height: 47px;
+}
+
+.icon-hackerrank:hover {
+  background: var(--dark-teal);
+}
 
 /* Responsive styling */
 @media screen and (max-width: 1365px) {
