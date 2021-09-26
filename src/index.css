@@ -407,7 +407,7 @@ header nav ul li a:hover,
 }
 
 .proficiencies div {
-  flex: 0 40%;
+  flex: 1 1 40%;
 }
 
 .proficiencies div ul {
@@ -489,6 +489,10 @@ header nav ul li a:hover,
   .contact-form {
     margin: 20px;
   }
+
+  .proficiencies {
+    justify-content: space-evenly;
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -516,6 +520,20 @@ header nav ul li a:hover,
 
   .about-me img {
     margin: 10px 0;
+  }
+
+  .proficiencies {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  .proficiencies {
+    display: block;
+  }
+
+  .proficiencies div {
+    padding-bottom: 20px;
   }
 }
 
