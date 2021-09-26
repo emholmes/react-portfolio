@@ -2,7 +2,7 @@ import resume from "../../assets/resume/ErinHolmes_Resume_Portfolio.pdf";
 
 const Resume = () => {
   return (
-    <section className="resume">
+    <section className="resume content">
       <h3>Resume</h3>
         <p>Download my
           <a href={resume} download> resume

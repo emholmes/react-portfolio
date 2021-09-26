@@ -113,6 +113,10 @@ header nav ul li a:hover,
   margin-left: 30px;
 }
 
+.content {
+  min-height: calc(100vh - 70px);
+}
+
 /* about me styles */
 .about-me {
   padding: 30px;
@@ -145,7 +149,7 @@ header nav ul li a:hover,
 
 /* contact me styles */
 .contact-me {
-  margin-top: 100px;
+  /* margin-top: 100px; */
   padding: 30px;
   text-align: center;
   border-top: 3px solid var(--ballet-pink);

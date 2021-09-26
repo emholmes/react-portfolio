@@ -14,7 +14,7 @@ const Footer = () => {
               </a>
           </li>
           <li>
-              <a href="https://github.com/emholmes" target="_blank" rel="noreferrer">
+              <a href="https://www.hackerrank.com/em_holmes" target="_blank" rel="noreferrer">
                 <span className="icon icon-hackerrank"></span>
               </a>
           </li>
