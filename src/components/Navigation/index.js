@@ -10,7 +10,7 @@ const Navigation = ({currentPage, handlePageChange}) => {
             onClick={() => {
               handlePageChange(link); 
             }}
-              className={currentPage === link ? "nav-link navActive active" : "nav-link"}>
+              className={currentPage === link ? "nav-link navActive" : "nav-link"}>
                 {link}
             </a>
           </li>
