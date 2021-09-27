@@ -13,7 +13,7 @@ function App() {
 
   const renderPage = () => {
     switch(currentPage) {
-      case "About":
+      case "About me":
         return <About />;
       case "Portfolio":
         return <Portfolio />;
