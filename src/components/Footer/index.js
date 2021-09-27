@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
     <footer>
-      <section id="contact-me" className="contact-me">
-        <ul className="contact-me-links">
+      <section className="footer-section">
+        <ul className="footer-links">
           <li>
               <a href="https://www.linkedin.com/in/erin-holmes-26861945/" target="_blank" rel="noreferrer">
                 <span className="icon icon-linkedin"></span>
