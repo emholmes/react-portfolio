@@ -112,7 +112,7 @@ header nav ul li a:hover {
 }
 
 .content {
-  min-height: calc(100vh - 260px);
+  min-height: calc(100vh - 255px);
 }
 
 /* about me styles */
