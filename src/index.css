@@ -566,6 +566,14 @@ header nav ul li a:hover {
 }
 
 @media screen and (max-width: 476px) {
+  .project-list > li {
+    padding-left: 15px;
+  }
+  
+  .project-list .project-description {
+    padding: 20px 5px 15px;
+  }
+  
   .proficiencies {
     display: block;
   }
