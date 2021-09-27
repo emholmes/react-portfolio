@@ -14,8 +14,8 @@ const Footer = () => {
               </a>
           </li>
           <li>
-              <a href="https://www.hackerrank.com/em_holmes" target="_blank" rel="noreferrer">
-                <span className="icon icon-hackerrank" aria-label="hackerrank profile link"></span>
+              <a href="https://leetcode.com/erinholmes/" target="_blank" rel="noreferrer">
+                <span className="icon icon-leetcode" aria-label="leetcode profile link"></span>
               </a>
           </li>
         </ul>

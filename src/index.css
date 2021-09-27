@@ -466,16 +466,16 @@ header nav ul li a:hover {
   background: var(--link-color);
 }
 
-.icon-hackerrank {
-  mask: url(../src/assets/icons/hackerrank-logo.svg);
+.icon-leetcode {
+  mask: url(../src/assets/icons/leetcode-logo.svg);
   vertical-align: bottom;
   mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
-  width: 47px;
-  height: 47px;
+  width: 45px;
+  height: 45px;
 }
 
-.icon-hackerrank:hover {
+.icon-leetcode:hover {
   background: var(--link-color);
 }
 
