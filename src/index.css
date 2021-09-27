@@ -16,11 +16,7 @@
   --secondary-color: #506CF0;
   --link-color: #FE7860;
   --tertiary-color: #393855;
-  --plum: #35283c;
-  --mid-blue: #226597;
-  --grey: #d0d4d6f1;
   --light-grey: #f5f5f7;
-  --dark-teal: #5e868f;
   --serif: Georgia, serif;
   --sans-serif: Arial, Helvetica, sans-serif;
 }
@@ -307,6 +303,11 @@ header nav ul li a:hover {
 .contact-form textarea {
   font-family: var(--sans-serif);
   padding-top: 8px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--secondary-color);
 }
 
 .contact-form button {
