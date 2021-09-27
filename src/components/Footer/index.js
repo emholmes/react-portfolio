@@ -5,7 +5,7 @@ const Footer = () => {
         <ul className="footer-links">
           <li>
               <a href="https://www.linkedin.com/in/erin-holmes-26861945/" target="_blank" rel="noreferrer">
-                <span className="icon icon-linkedin" aria-lable="linkedin profile link"></span>
+                <span className="icon icon-linkedin" aria-label="linkedin profile link"></span>
               </a>
           </li>
           <li>
