@@ -9,16 +9,12 @@ https://emholmes.github.io/react-portfolio/
 
 ## Screenshots
 
-About me view: 
 ![About me view](./src/assets/images/about-me-screenshot.png)
 
-Portfolio view:
 ![Portfolio view](./src/assets/images/portfolio-screenshot.png)
 
-Contact view:
 ![Contact view](./src/assets/images/contact-screenshot.png)
 
-Resume view: 
 ![Resume view](./src/assets/images/resume-screenshot.png)
 
 ## Questions

@@ -28,6 +28,7 @@ const ContactForm = () => {
 
   const submitContactForm = (event) => {
     event.preventDefault();
+    setErrorMessage("This form isn't hooked up to the backend just yet, please reach out via LinkedIn.");
     console.log(formState);
   }
 
