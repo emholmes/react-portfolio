@@ -6,7 +6,7 @@ const Resume = () => {
       <h3>Resume</h3>
         <p>Download my
           <a href={resume} download> resume
-            <span className="icon icon-download"></span>
+            <span className="icon icon-download" aria-label="download icon"></span>
           </a>
         </p>
         <section className="proficiencies">
