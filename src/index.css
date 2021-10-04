@@ -69,7 +69,7 @@ header {
   justify-content: space-between;
   position: sticky;
   background-color: #FFF;
-  border-bottom: 4px solid var(--secondary-color);
+  border-bottom: 10px solid var(--secondary-color);
   top: 0;
   z-index: 9999;
 }
