@@ -617,6 +617,14 @@ header nav ul li a:hover {
 }
 
 @media screen and (max-width: 414px) {
+  .h1-block {
+    padding: 20px 30px 10px;
+  }
+
+  header nav ul li a {
+    margin: 6px;
+  }
+
   .project-title {
     font-size: 22px;
   }
