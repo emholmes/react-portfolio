@@ -9,7 +9,7 @@ import ContactForm from "./components/Contact";
 import Resume from "./components/Resume";
 
 function App() {
-  const [currentPage, handlePageChange] = useState("About");
+  const [currentPage, handlePageChange] = useState("About me");
 
   const renderPage = () => {
     switch(currentPage) {
