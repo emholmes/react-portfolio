@@ -625,5 +625,13 @@ header nav ul li a:hover {
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .resume p {
+    margin-bottom: 15px;
+  }
+
+  .proficiencies {
+    padding-bottom: 30px;
+  }
 }
 
