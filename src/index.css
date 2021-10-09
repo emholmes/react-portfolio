@@ -616,3 +616,14 @@ header nav ul li a:hover {
   }
 }
 
+@media screen and (max-width: 414px) {
+  .project-title {
+    font-size: 22px;
+  }
+  
+  .project-list > li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
