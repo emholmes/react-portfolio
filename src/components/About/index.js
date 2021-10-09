@@ -8,12 +8,14 @@ const About = () => {
         <div>
           <p>Hi, I'm Erin.</p>
           <p> 
-              I am a detail oriented full-stack developer with experience in responsive web design and development, web accessibility, digital activation, project management and design experimentation. 
+            I am a detail oriented full-stack developer with experience in responsive web design and development, web accessibility, digital activation, project management and design experimentation. 
+          </p>
+          {/* <hr /> */}
+          <p>
+            I'm currently enrolled in a Full-Stack Web Development Bootcamp through The University of Texas at Austin, graduating mid-October 2021.  
           </p>
         </div>
-        <div>
-          <img src={headshot} alt="headshot of Erin Holmes" />
-        </div>
+        <img src={headshot} alt="headshot of Erin Holmes" />
       </div>
     </section>
   )
