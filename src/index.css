@@ -32,21 +32,22 @@ body {
   color: var(--primary-color);
 }
 
-h1 {
+.dev-name {
   font-family: var(--sans-serif);
   font-size: 40px;
   line-height: 1.2;
   color: var(--primary-color);
+  font-weight: 500;
 }
 
-h2 {
+.subhead {
   font-family: var(--sans-serif-head);
   font-size: 18px;
   color: var(--primary-color);
   text-align: right;
 }
 
-h3 {
+h1 {
   font-family: var(--sans-serif-head);
   font-size: 33px;
   padding-top: 30px;
@@ -56,7 +57,7 @@ h3 {
   color: #FFF;
 }
 
-h4 {
+h2 {
   font-family: var(--sans-serif);
   font-size: 20px;
   margin: 0 auto;
@@ -108,7 +109,7 @@ header nav ul li a:hover {
   border-bottom: 2px solid var(--link-color);
 }
 
-.h1-block {
+.header-block {
   padding: 20px 30px;
   margin-left: 30px;
 }
@@ -512,7 +513,7 @@ header nav ul li a:hover {
 
 /* Responsive styling */
 @media screen and (max-width: 1365px) {
-  h3 {
+  h1 {
       flex: 0 20%;
   }
 
@@ -534,7 +535,7 @@ header nav ul li a:hover {
 }
 
 @media screen and (max-width: 840px) {
-  .h1-block {
+  .header-block {
     margin-left: 0;
   }
 
@@ -567,7 +568,7 @@ header nav ul li a:hover {
 }
 
 @media screen and (max-width: 540px) {
-  h1 {
+  .dev-name {
     margin-left: 0;
     padding: 10px 0 0;
   }
@@ -617,7 +618,7 @@ header nav ul li a:hover {
 }
 
 @media screen and (max-width: 414px) {
-  .h1-block {
+  .header-block {
     padding: 20px 30px 10px;
   }
 

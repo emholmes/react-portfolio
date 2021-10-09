@@ -3,7 +3,7 @@ import resume from "../../assets/resume/ErinHolmes_Resume_Portfolio.pdf";
 const Resume = () => {
   return (
     <>
-      <h3>Resume</h3>
+      <h1>Resume</h1>
       <section className="resume content">
           <p>Download my
             <a href={resume} download> resume
@@ -12,7 +12,7 @@ const Resume = () => {
           </p>
           <section className="proficiencies">
             <div className="frontEnd">
-              <h4>Front-end Proficiencies</h4>
+              <h2>Front-end Proficiencies</h2>
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -26,7 +26,7 @@ const Resume = () => {
               </ul>
             </div>
             <div className="backEnd">
-              <h4>Back-end Proficiencies</h4>
+              <h2>Back-end Proficiencies</h2>
               <ul>
                 <li>Server-side APIs</li>
                 <li>REST API</li>

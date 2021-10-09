@@ -3,9 +3,9 @@ import Navigation from "../Navigation";
 const Header = (props) => {
   return (
     <header>
-      <div className="h1-block">
-        <h1>Erin Holmes</h1>
-            <h2>Web Developer</h2>
+      <div className="header-block">
+        <div className="dev-name">Erin Holmes</div>
+            <div className="subhead">Web Developer</div>
       </div>
       <Navigation 
         currentPage={props.currentPage}
