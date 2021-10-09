@@ -50,7 +50,7 @@ body {
 h1 {
   font-family: var(--sans-serif-head);
   font-size: 33px;
-  padding-top: 30px;
+  padding-top: 25px;
   padding-bottom: 30px;
   text-align: center;
   background-color: var(--secondary-color);
@@ -71,7 +71,7 @@ header {
   justify-content: space-between;
   position: sticky;
   background-color: #FFF;
-  /* border-bottom: 10px solid var(--secondary-color); */
+  border-bottom: 5px solid var(--secondary-color);
   top: 0;
   z-index: 9999;
 }
