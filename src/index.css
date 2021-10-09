@@ -96,6 +96,7 @@ header nav ul li a {
   color: var(--primary-color);
   font-weight: bold;
   font-size: 18px;
+  font-family: var(--sans-serif-head);
   cursor: pointer;
   border-bottom: 2px solid transparent;
 }
@@ -620,10 +621,6 @@ header nav ul li a:hover {
 @media screen and (max-width: 414px) {
   .header-block {
     padding: 20px 30px 10px;
-  }
-
-  header nav ul li a {
-    margin: 6px;
   }
 
   .project-title {
