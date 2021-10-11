@@ -227,36 +227,41 @@ header nav ul li a:hover {
 
 /* my work background images */
 .project-one::before {
-  background-image: url(./assets/images/parktime-2-home.png); 
+  background-image: url(./assets/images/pet-social-network.png); 
   background-size: cover;
 }
 
 .project-two::before {
-  background-image: url(./assets/images/tech-blog-home.png);
+  background-image: url(./assets/images/parktime-2-home.png); 
   background-size: cover;
 }
 
 .project-three::before {
-  background-image: url(./assets/images/notetaker-notes.png);
+  background-image: url(./assets/images/tech-blog-home.png);
   background-size: cover;
 }
 
 .project-four::before {
-  background-image: url(./assets/images/workday-scheduler-tasks.png);
+  background-image: url(./assets/images/notetaker-notes.png);
   background-size: cover;
 }
 
 .project-five::before {
-  background-image: url(./assets/images/weather-dash-search-history.png);
+  background-image: url(./assets/images/workday-scheduler-tasks.png);
   background-size: cover;
 }
 
 .project-six::before {
-  background-image: url(./assets/images/js-api-quiz.png);
+  background-image: url(./assets/images/weather-dash-search-history.png);
   background-size: cover;
 }
 
 .project-seven::before {
+  background-image: url(./assets/images/js-api-quiz.png);
+  background-size: cover;
+}
+
+.project-eight::before {
   background-image: url(./assets/images/password-generator.png); 
   background-size: cover;
 }
