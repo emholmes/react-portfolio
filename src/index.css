@@ -227,7 +227,7 @@ header nav ul li a:hover {
 
 /* my work background images */
 .project-one::before {
-  background-image: url(./assets/images/pet-social-network.png); 
+  background-image: url(./assets/images/pet-planet-home.png); 
   background-size: cover;
 }
 
