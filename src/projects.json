@@ -3,8 +3,8 @@
     "id": "project-one", 
     "name": "Pet Social Network", 
     "description": "MERN Stack", 
-    "pageUrl": "", 
-    "githubUrl": "https://github.com/dpbam/pet-social-network"
+    "pageUrl": "https://enigmatic-temple-75821.herokuapp.com/", 
+    "githubUrl": "https://github.com/emholmes/pet-social-network"
   },
   {
     "id": "project-two", 
