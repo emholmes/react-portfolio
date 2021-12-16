@@ -12,7 +12,7 @@ const About = () => {
           </p>
           {/* <hr /> */}
           <p>
-            I'm completed a Full-Stack Web Development Bootcamp through The University of Texas at Austin, October 2021.  
+            I completed a Full-Stack Web Development Bootcamp through The University of Texas at Austin, October 2021.  
           </p>
         </div>
         <img src={headshot} alt="headshot of Erin Holmes" />
